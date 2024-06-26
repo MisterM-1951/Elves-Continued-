@@ -21,7 +21,7 @@
         </value>
       </Operation>
 
-      <Operation Class="PatchOperationAdd">
+      <!-- <Operation Class="PatchOperationAdd">
         <xpath>Defs</xpath>
         <value>
           <ThingDef ParentName="DankPyon_HideBaseHuge">
@@ -41,9 +41,9 @@
             </stuffProps>
           </ThingDef>
         </value>
-      </Operation>
+      </Operation> -->
 
-      <Operation Class="PatchOperationAdd">
+      <!-- <Operation Class="PatchOperationAdd">
         <xpath>Defs/PawnKindDef[defName="DevDesigner_AncientDeer"]/lifeStages/li[3]</xpath>
         <value>
           <butcherBodyPart>
@@ -52,9 +52,9 @@
             <allowFemale>true</allowFemale>
           </butcherBodyPart>
         </value>
-      </Operation>
+      </Operation> -->
 
-      <Operation Class="PatchOperationAdd">
+      <!-- <Operation Class="PatchOperationAdd">
         <xpath>Defs/PawnKindDef[defName="DevDesigner_ColdOne"]/lifeStages/li[3]</xpath>
         <value>
           <butcherBodyPart>
@@ -63,7 +63,7 @@
             <allowFemale>true</allowFemale>
           </butcherBodyPart>
         </value>
-      </Operation>
+      </Operation> -->
     </caseTrue>
   </Operation>
 
