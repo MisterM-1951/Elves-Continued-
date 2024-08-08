@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<mods>
+      <li>CETeam.CombatExtended</li>
+    </mods>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+	
+      <li Class="PatchOperationReplace">
+        <xpath>LoadFolders</xpath>
+        <value>
+			<li IfModActive="DevDesigner.Elves">ModPatches/DD Elves</li>
+        </value>
+      </li>
+	  
+    </operations>
+  </Operation>
+
+</Patch>
