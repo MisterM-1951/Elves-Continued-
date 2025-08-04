@@ -231,6 +231,7 @@
       <useWornGraphicMask>true</useWornGraphicMask>
       <tags>
         <li>DevDesigner_HighElves_DragonPrinceArmor</li>
+		<li>PrestigeCombatGear</li>
       </tags>
     </apparel>
 
@@ -299,6 +300,9 @@
       <useWornGraphicMask>true</useWornGraphicMask>
       <tags>
         <li>DevDesigner_HighElves_LordCloak</li>
+		<li>Royal</li>
+		<li>RoyalTier2</li>
+        <li>RoyalTier5</li>
       </tags>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
@@ -327,6 +331,7 @@
       <useWornGraphicMask>true</useWornGraphicMask>
       <tags>
         <li>DevDesigner_HighElves_LordArmor</li>
+		<li>PrestigeCombatGear</li>
       </tags>
     </apparel>
 
@@ -411,6 +416,9 @@
       <gender>Female</gender>
       <tags>
         <li>DevDesigner_HighElves_AlarielleRobe</li>
+		<li>Royal</li>
+		<li>RoyalTier2</li>
+		<li>RoyalTier5</li>
       </tags>
       <defaultOutfitTags></defaultOutfitTags>
     </apparel>
@@ -453,6 +461,7 @@
       <useWornGraphicMask>true</useWornGraphicMask>
       <tags>
         <li>DevDesigner_HighElves_AlarielleArmor</li>
+		<li>PrestigeCombatGear</li>
       </tags>
     </apparel>
 

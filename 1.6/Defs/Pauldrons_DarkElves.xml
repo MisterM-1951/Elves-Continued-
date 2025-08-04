@@ -36,6 +36,7 @@
       <useWornGraphicMask>true</useWornGraphicMask>
       <tags>
         <li>DevDesigner_DarkElves_BlackGuardPauldrons</li>
+		<li>PrestigeCombatGear</li>
       </tags>
       <defaultOutfitTags></defaultOutfitTags>
     </apparel>
@@ -83,6 +84,7 @@
       <useWornGraphicMask>true</useWornGraphicMask>
       <tags>
         <li>DevDesigner_DarkElves_MorathiPauldrons</li>
+		<li>PrestigeCombatGear</li>
       </tags>
       <defaultOutfitTags></defaultOutfitTags>
     </apparel>

@@ -77,6 +77,7 @@
       <useWornGraphicMask>true</useWornGraphicMask>
       <tags>
         <li>DevDesigner_HighElves_DragonPrincePauldrons</li>
+		<li>PrestigeCombatGear</li>
       </tags>
       <defaultOutfitTags></defaultOutfitTags>
     </apparel>
@@ -123,6 +124,7 @@
       <useWornGraphicMask>true</useWornGraphicMask>
       <tags>
         <li>DevDesigner_HighElves_LordPauldrons</li>
+		<li>PrestigeCombatGear</li>
       </tags>
       <defaultOutfitTags></defaultOutfitTags>
     </apparel>

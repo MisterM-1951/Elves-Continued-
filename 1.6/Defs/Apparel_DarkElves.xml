@@ -126,6 +126,9 @@
       <useWornGraphicMask>true</useWornGraphicMask>
       <tags>
         <li>DevDesigner_DarkElves_ColdOneKnightCloak</li>
+		<li>Royal</li>
+		<li>RoyalTier2</li>
+        <li>RoyalTier5</li>
       </tags>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
@@ -152,6 +155,7 @@
       <wornGraphicPath>Apparel/Breastplate/DarkElves/ColdOneKnight/Breastplate</wornGraphicPath>
       <tags>
         <li>DevDesigner_DarkElves_ColdOneKnightArmor</li>
+		<li>PrestigeCombatGear</li>
       </tags>
     </apparel>
 
@@ -219,6 +223,9 @@
       <useWornGraphicMask>true</useWornGraphicMask>
       <tags>
         <li>DevDesigner_DarkElves_BlackGuardCloak</li>
+		<li>Royal</li>
+		<li>RoyalTier2</li>
+        <li>RoyalTier5</li>
       </tags>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
@@ -372,6 +379,9 @@
       <gender>Female</gender>
       <tags>
         <li>DevDesigner_DarkElves_MorathiRobe</li>
+		<li>Royal</li>
+		<li>RoyalTier2</li>
+		<li>RoyalTier5</li>
       </tags>
       <defaultOutfitTags></defaultOutfitTags>
     </apparel>
@@ -414,6 +424,7 @@
       <useWornGraphicMask>true</useWornGraphicMask>
       <tags>
         <li>DevDesigner_DarkElves_MorathiArmor</li>
+		<li>PrestigeCombatGear</li>
       </tags>
     </apparel>
 
@@ -479,6 +490,9 @@
       <gender>Female</gender>
       <tags>
         <li>DevDesigner_DarkElves_SorceressRobe</li>
+		<li>Royal</li>
+		<li>RoyalTier2</li>
+		<li>RoyalTier5</li>
       </tags>
       <defaultOutfitTags></defaultOutfitTags>
     </apparel>

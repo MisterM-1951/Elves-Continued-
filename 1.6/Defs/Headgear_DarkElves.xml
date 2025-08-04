@@ -208,6 +208,7 @@
       </layers>
       <tags>
         <li>DevDesigner_DarkElves_ColdOneKnightHelmet</li>
+		<li>PrestigeCombatGear</li>
       </tags>
     </apparel>
 
@@ -263,6 +264,7 @@
       </layers>
       <tags>
         <li>DevDesigner_DarkElves_BlackGuardHelmet</li>
+		<li>PrestigeCombatGear</li>
       </tags>
     </apparel>
 
@@ -323,6 +325,7 @@
       </layers>
       <tags>
         <li>DevDesigner_DarkElves_MorathiHelmet</li>
+		<li>PrestigeCombatGear</li>
       </tags>
     </apparel>
 
@@ -376,6 +379,8 @@
       </layers>
       <tags>
         <li>DevDesigner_DarkElves_WitchHelmet</li>
+		<li>Royal</li>
+		<li>RoyalTier6</li>
       </tags>
     </apparel>
 
@@ -438,6 +443,8 @@
       </layers>
       <tags>
         <li>DevDesigner_DarkElves_SorceressHelmet</li>
+		<li>Royal</li>
+		<li>RoyalTier7</li>
       </tags>
     </apparel>
 
