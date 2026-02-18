@@ -11,8 +11,8 @@
     <description>Create Dark Elves weapons and armor.</description>
     <baseCost>700</baseCost>
     <techLevel>Medieval</techLevel>
-    <researchViewX>0.00</researchViewX>
-    <researchViewY>0.75</researchViewY>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>1.40</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -21,8 +21,8 @@
     <description>Create High Elves weapons and armor.</description>
     <baseCost>700</baseCost>
     <techLevel>Medieval</techLevel>
-    <researchViewX>0.00</researchViewX>
-    <researchViewY>1.50</researchViewY>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>2.10</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -31,8 +31,8 @@
     <description>Create Wood Elves weapons and armor.</description>
     <baseCost>700</baseCost>
     <techLevel>Medieval</techLevel>
-    <researchViewX>0.00</researchViewX>
-    <researchViewY>2.25</researchViewY>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>2.80</researchViewY>
     <tags>
       <li>WoodElvesStart</li>
     </tags>
