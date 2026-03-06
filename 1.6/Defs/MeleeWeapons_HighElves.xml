@@ -104,14 +104,24 @@
 				<cooldownTime>2</cooldownTime>
 			</li>
 			<li>
+				<label>point</label>
+				<labelUsedInLogging>false</labelUsedInLogging>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>28</power>
+				<cooldownTime>3.5</cooldownTime>
+				<armorPenetration>0.35</armorPenetration>
+			</li>
+			<li>
 				<label>edge</label>
 				<labelUsedInLogging>false</labelUsedInLogging>
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>32</power>
-				<cooldownTime>2.85</cooldownTime>
-				<armorPenetration>0.25</armorPenetration>
+				<power>26</power>
+				<cooldownTime>2.8</cooldownTime>
+				<armorPenetration>0.3</armorPenetration>
 			</li>
 		</tools>
 
@@ -353,7 +363,7 @@
 				<capacities>
 					<li>Stab</li>
 				</capacities>
-				<power>24</power>
+				<power>20</power>
 				<cooldownTime>2.1</cooldownTime>
 			</li>
 			<li>
@@ -361,7 +371,7 @@
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>24</power>
+				<power>20</power>
 				<cooldownTime>2.3</cooldownTime>
 				<armorPenetration>0.1</armorPenetration>
 			</li>
