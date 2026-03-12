@@ -177,17 +177,17 @@
     </colorGenerator>
   </ThingDef>
 
-  <!-- DevDesigner_Cloaks -->
-  <ThingDef Name="DevDesigner_Cloaks" Abstract="true" ParentName="DevDesigner_Elves_Apparel">
-    <apparel>
-      <bodyPartGroups>
-        <li>Neck</li>
-      </bodyPartGroups>
-      <layers>
-        <li>Shell</li>
-      </layers>
-    </apparel>
-  </ThingDef>
+	<!-- DevDesigner_Cloaks -->
+	<ThingDef Name="DevDesigner_Cloaks" Abstract="true" ParentName="DevDesigner_Elves_Apparel">
+		<apparel>
+			<bodyPartGroups>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Shell</li>
+			</layers>
+		</apparel>
+	</ThingDef>
 
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 

@@ -340,101 +340,107 @@
     </recipeMaker>
   </ThingDef>
 
-  <!-- DevDesigner_WoodElves_Cloak -->
-  <ThingDef ParentName="DevDesigner_Cloaks">
-    <defName>DevDesigner_WoodElves_Cloak</defName>
-    <label>elven cloak (T,M,F)</label>
-    <description>A loose cloak fastened around the neck of the wearer.</description>
+	<!-- DevDesigner_WoodElves_Cloak -->
+	<ThingDef ParentName="DevDesigner_Cloaks">
+		<defName>DevDesigner_WoodElves_Cloak</defName>
+		<label>wood elven cloak (T,M,F)</label>
+		<description>A loose cloak fastened around the neck of the wearer.</description>
 
-    <graphicData>
-      <texPath>Apparel/Cloak/WoodElves/Archer/Cloak</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-    </graphicData>
+		<graphicData>
+			<texPath>Apparel/Cloak/WoodElves/Archer/Cloak</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
 
-    <equippedStatOffsets Inherit="false">
-      <PainShockThreshold>0.3</PainShockThreshold>
-      <MentalBreakThreshold>-0.1</MentalBreakThreshold>
-      <HuntingStealth>0.50</HuntingStealth>
-    </equippedStatOffsets>
+		<equippedStatOffsets Inherit="false">
+			<PainShockThreshold>0.3</PainShockThreshold>
+			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+			<HuntingStealth>0.50</HuntingStealth>
+		</equippedStatOffsets>
 
-    <costStuffCount>35</costStuffCount>
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
-    </stuffCategories>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToMake>1200</WorkToMake>
-      <Mass>0.12</Mass>
-      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.65</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>0.8</EquipDelay>
-    </statBases>
-    <thingCategories>
-      <li>Apparel</li>
-    </thingCategories>
-    <apparel>
-      <wornGraphicPath>Apparel/Cloak/WoodElves/Archer/Cloak</wornGraphicPath>
-      <useWornGraphicMask>true</useWornGraphicMask>
-      <tags>
-        <li>DevDesigner_WoodElves_Apparel</li>
-        <li>DevDesigner_WoodElves_Light</li>
-        <li>DevDesigner_WoodElves_Cloak</li>
-      </tags>
-    </apparel>
-    <colorGenerator Class="ColorGenerator_StandardApparel" />
+		<costStuffCount>35</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>1200</WorkToMake>
+			<Mass>0.12</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.65</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>0.8</EquipDelay>
+		</statBases>
+		
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<apparel>
+			<wornGraphicPath>Apparel/Cloak/WoodElves/Archer/Cloak</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<tags>
+				<li>DevDesigner_WoodElves_Apparel</li>
+				<li>DevDesigner_WoodElves_Light</li>
+				<li>DevDesigner_WoodElves_Cloak</li>
+			</tags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
 
-    <recipeMaker>
-      <researchPrerequisite>DevDesigner_ElvenEquipment_WoodElves</researchPrerequisite>
-    </recipeMaker>
-  </ThingDef>
+		<recipeMaker>
+			<researchPrerequisite>DevDesigner_ElvenEquipment_WoodElves</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
 
-  <!-- DevDesigner_WoodElves_ShamanCloak -->
-  <ThingDef ParentName="DevDesigner_Cloaks">
-    <defName>DevDesigner_WoodElves_ShamanCloak</defName>
-    <label>shaman cloak (F)</label>
-    <description>A loose cloak fastened around the neck of the wearer.</description>
-    <graphicData>
-      <texPath>Apparel/Shaman/ShamanCloak/ShamanCloak</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-    </graphicData>
+	<!-- DevDesigner_WoodElves_ShamanCloak -->
+	<ThingDef ParentName="DevDesigner_Cloaks">
+		<defName>DevDesigner_WoodElves_ShamanCloak</defName>
+		<label>shaman cloak (F)</label>
+		<description>A loose cloak fastened around the neck of the wearer.</description>
+		<graphicData>
+			<texPath>Apparel/Shaman/ShamanCloak/ShamanCloak</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
 
-    <costStuffCount>45</costStuffCount>
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
-    </stuffCategories>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToMake>1200</WorkToMake>
-      <Mass>0.12</Mass>
-      <StuffEffectMultiplierArmor>0.22</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.65</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>0.8</EquipDelay>
-    </statBases>
-    <thingCategories>
-      <li>Apparel</li>
-    </thingCategories>
-    <apparel>
-      <wornGraphicPath>Apparel/Shaman/ShamanCloak/ShamanCloak</wornGraphicPath>
-      <gender>Female</gender>
-      <useWornGraphicMask>true</useWornGraphicMask>
-      <tags>
-        <li>DevDesigner_WoodElves_Apparel</li>
-        <li>DevDesigner_WoodElves_Shaman</li>
-        <li>DevDesigner_WoodElves_ShamanCloak</li>
-      </tags>
-    </apparel>
-    <colorGenerator Class="ColorGenerator_StandardApparel" />
+		<costStuffCount>45</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>1200</WorkToMake>
+			<Mass>0.12</Mass>
+			<StuffEffectMultiplierArmor>0.22</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.65</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>0.8</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Neck</li>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+		
+			<wornGraphicPath>Apparel/Shaman/ShamanCloak/ShamanCloak</wornGraphicPath>
+			<gender>Female</gender>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<tags>
+				<li>DevDesigner_WoodElves_Apparel</li>
+				<li>DevDesigner_WoodElves_Shaman</li>
+				<li>DevDesigner_WoodElves_ShamanCloak</li>
+			</tags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
 
-    <recipeMaker>
-      <researchPrerequisite>DevDesigner_ElvenEquipment_WoodElves</researchPrerequisite>
-    </recipeMaker>
-  </ThingDef>
+		<recipeMaker>
+			<researchPrerequisite>DevDesigner_ElvenEquipment_WoodElves</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
 
   <!-- DevDesigner_WoodElves_StagKnightArmor -->
   <ThingDef ParentName="DevDesigner_Elves_BreastplateBase">

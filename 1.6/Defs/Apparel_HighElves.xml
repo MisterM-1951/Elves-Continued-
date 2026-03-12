@@ -64,111 +64,114 @@
 
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-  <!-- DevDesigner_HighElves_Cloak -->
-  <ThingDef ParentName="DevDesigner_Cloaks">
-    <defName>DevDesigner_HighElves_Cloak</defName>
-    <label>elven cloak (T,M,F)</label>
-    <description>A loose cloak fastened around the neck of the wearer.</description>
+	<!-- DevDesigner_HighElves_Cloak -->
+	<ThingDef ParentName="DevDesigner_Cloaks">
+		<defName>DevDesigner_HighElves_Cloak</defName>
+		<label>high elven cloak (T,M,F)</label>
+		<description>A loose cloak fastened around the neck of the wearer.</description>
 
-    <graphicData>
-      <texPath>Apparel/Cloak/HighElves/ShadowWarrior/Cloak</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
+		<graphicData>
+			<texPath>Apparel/Cloak/HighElves/ShadowWarrior/Cloak</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
 
-    <equippedStatOffsets Inherit="false">
-      <PainShockThreshold>0.1</PainShockThreshold>
-      <MentalBreakThreshold>-0.05</MentalBreakThreshold>
-      <MeleeDodgeChance>0.5</MeleeDodgeChance>
-    </equippedStatOffsets>
+		<equippedStatOffsets Inherit="false">
+			<PainShockThreshold>0.1</PainShockThreshold>
+			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+			<MeleeDodgeChance>0.5</MeleeDodgeChance>
+		</equippedStatOffsets>
 
-    <costStuffCount>35</costStuffCount>
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
-    </stuffCategories>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToMake>1200</WorkToMake>
-      <Mass>0.12</Mass>
-      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.65</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>0.8</EquipDelay>
-    </statBases>
-    <thingCategories>
-      <li>Apparel</li>
-    </thingCategories>
-    <apparel>
-      <wornGraphicPath>Apparel/Cloak/HighElves/ShadowWarrior/Cloak</wornGraphicPath>
-      <tags>
-        <li>DevDesigner_HighElves_Apparel</li>
-        <li>DevDesigner_HighElves_Light</li>
-        <li>DevDesigner_HighElves_Cloak</li>
-      </tags>
-    </apparel>
-    <colorGenerator Class="ColorGenerator_StandardApparel" />
+		<costStuffCount>35</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>1200</WorkToMake>
+			<Mass>0.12</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.65</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>0.8</EquipDelay>
+		</statBases>
+		
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<apparel>	
+			<wornGraphicPath>Apparel/Cloak/HighElves/ShadowWarrior/Cloak</wornGraphicPath>
+			<tags>
+				<li>DevDesigner_HighElves_Apparel</li>
+				<li>DevDesigner_HighElves_Light</li>
+				<li>DevDesigner_HighElves_Cloak</li>
+			</tags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
 
-    <recipeMaker>
-      <researchPrerequisite>DevDesigner_ElvenEquipment_HighElves</researchPrerequisite>
-    </recipeMaker>
-  </ThingDef>
+		<recipeMaker>
+			<researchPrerequisite>DevDesigner_ElvenEquipment_HighElves</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
 
-  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-  <!-- DevDesigner_HighElves_WhiteLionPelt -->
-  <ThingDef ParentName="DevDesigner_Cloaks">
-    <defName>DevDesigner_HighElves_WhiteLionPelt</defName>
-    <label>White Lion Pelt (T,M,F)</label>
-    <description>...</description>
+	<!-- DevDesigner_HighElves_WhiteLionPelt -->
+	<ThingDef ParentName="DevDesigner_Cloaks">
+		<defName>DevDesigner_HighElves_WhiteLionPelt</defName>
+		<label>White Lion Pelt (T,M,F)</label>
+		<description>...</description>
 
-    <graphicData>
-      <texPath>Apparel/Pelt/WhiteLion/Pelt</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
+		<graphicData>
+			<texPath>Apparel/Pelt/WhiteLion/Pelt</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
 
-    <equippedStatOffsets Inherit="false">
-      <PainShockThreshold>0.3</PainShockThreshold>
-      <MentalBreakThreshold>-0.1</MentalBreakThreshold>
-      <MeleeDodgeChance>0.7</MeleeDodgeChance>
-      <HuntingStealth>0.25</HuntingStealth>
-    </equippedStatOffsets>
+		<equippedStatOffsets Inherit="false">
+			<PainShockThreshold>0.3</PainShockThreshold>
+			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+			<MeleeDodgeChance>0.7</MeleeDodgeChance>
+			<HuntingStealth>0.25</HuntingStealth>
+		</equippedStatOffsets>
 
-    <costStuffCount>35</costStuffCount>
-    <stuffCategories>
-      <li>Fabric</li>
-    </stuffCategories>
+		<costStuffCount>35</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
 
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToMake>1200</WorkToMake>
-      <Mass>0.12</Mass>
-      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.65</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>0.8</EquipDelay>
-    </statBases>
-    <thingCategories>
-      <li>Apparel</li>
-    </thingCategories>
-    <apparel>
-      <wornGraphicPath>Apparel/Pelt/WhiteLion/Pelt</wornGraphicPath>
-      <tags>
-        <li>DevDesigner_HighElves_WhiteLionPelt</li>
-      </tags>
-    </apparel>
-    <colorGenerator Class="ColorGenerator_Options">
-      <options>
-        <li>
-          <weight>1</weight>
-          <only>(1,1,1)</only>
-        </li>
-      </options>
-    </colorGenerator>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>1200</WorkToMake>
+			<Mass>0.12</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.65</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>0.8</EquipDelay>
+		</statBases>
+		
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<apparel>		
+			<wornGraphicPath>Apparel/Pelt/WhiteLion/Pelt</wornGraphicPath>
+			<tags>
+				<li>DevDesigner_HighElves_WhiteLionPelt</li>
+			</tags>
+		</apparel>
+		
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>1</weight>
+					<only>(1,1,1)</only>
+				</li>
+			</options>
+		</colorGenerator>
 
-    <recipeMaker>
-      <researchPrerequisite>DevDesigner_ElvenEquipment_HighElves</researchPrerequisite>
-    </recipeMaker>
-  </ThingDef>
+		<recipeMaker>
+			<researchPrerequisite>DevDesigner_ElvenEquipment_HighElves</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
 
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 

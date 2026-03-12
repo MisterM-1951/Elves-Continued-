@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="DevDesigner_Utility_QuiverBase" Abstract="true" ParentName="ApparelMakeableBase">
+	<ThingDef Name="DevDesigner_Utility_QuiverBase" Abstract="true" ParentName="ApparelMakeableBase">
     <description>A wearable leather container designed for holding arrows. Wearing the quiver reduces the time it takes to shoot for bows and crossbows.</description>
     <techLevel>Neolithic</techLevel>
 
@@ -89,46 +89,48 @@
     </modExtensions>
   </ThingDef>
 
-  <ThingDef ParentName="DevDesigner_Utility_QuiverBase">
-    <defName>DevDesigner_HighElves_Quiver</defName>
-    <label>arrow quiver</label>
+	<ThingDef ParentName="DevDesigner_Utility_QuiverBase">
+		<defName>DevDesigner_HighElves_Quiver</defName>
+		<label>arrow quiver</label>
 
-    <graphicData>
-      <texPath>Apparel/Utility/ArrowQuiver/Quiver</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
+		<graphicData>
+			<texPath>Apparel/Utility/ArrowQuiver/Quiver</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
 
-    <apparel>
-      <wornGraphicPath>Apparel/Utility/ArrowQuiver/Quiver</wornGraphicPath>
-      <tags>
-        <li>DevDesigner_HighElves_Quiver</li>
-      </tags>
-    </apparel>
+		<apparel>
+			<wornGraphicPath>Apparel/Utility/ArrowQuiver/Quiver</wornGraphicPath>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<tags>
+				<li>DevDesigner_HighElves_Quiver</li>
+			</tags>
+		</apparel>
 
-    <recipeMaker>
-      <researchPrerequisite>DevDesigner_ElvenEquipment_HighElves</researchPrerequisite>
-    </recipeMaker>
-  </ThingDef>
+		<recipeMaker>
+			<researchPrerequisite>DevDesigner_ElvenEquipment_HighElves</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
 
-  <ThingDef ParentName="DevDesigner_Utility_QuiverBase">
-    <defName>DevDesigner_DarkElves_Quiver</defName>
-    <label>bolt quiver</label>
+	<ThingDef ParentName="DevDesigner_Utility_QuiverBase">
+		<defName>DevDesigner_DarkElves_Quiver</defName>
+		<label>bolt quiver</label>
 
-    <graphicData>
-      <texPath>Apparel/Utility/BoltQuiver/Quiver</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
+		<graphicData>
+			<texPath>Apparel/Utility/BoltQuiver/Quiver</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
 
-    <apparel>
-      <wornGraphicPath>Apparel/Utility/BoltQuiver/Quiver</wornGraphicPath>
-      <tags>
-        <li>DevDesigner_DarkElves_Quiver</li>
-      </tags>
-    </apparel>
+		<apparel>
+			<wornGraphicPath>Apparel/Utility/BoltQuiver/Quiver</wornGraphicPath>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<tags>
+				<li>DevDesigner_DarkElves_Quiver</li>
+			</tags>
+		</apparel>
 
-    <recipeMaker>
-      <researchPrerequisite>DevDesigner_ElvenEquipment_DarkElves</researchPrerequisite>
-    </recipeMaker>
-  </ThingDef>
+		<recipeMaker>
+			<researchPrerequisite>DevDesigner_ElvenEquipment_DarkElves</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
 
 </Defs>
