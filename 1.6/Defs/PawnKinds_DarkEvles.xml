@@ -232,6 +232,7 @@
       <li>DevDesigner_Elves_Chainmail</li>
       <li>DevDesigner_DarkElves_DreadspearArmor</li>
       <li>DevDesigner_DarkElves_DreadspearHelmet</li>
+	  <li>DevDesigner_DarkElves_Shield</li>
     </apparelRequired>
 
     <apparelTags>
@@ -261,10 +262,6 @@
         <factionColourApparelLayerList>
           <li>VFEC_OuterShell</li>
         </factionColourApparelLayerList>
-        <shieldMoney>250~3500</shieldMoney>
-        <shieldTags>
-          <li>DevDesigner_DarkElves_Shield</li>
-        </shieldTags>
       </li>
     </modExtensions>
   </PawnKindDef>
@@ -847,6 +844,7 @@
       <li>DevDesigner_DarkElves_ColdOneKnightArmor</li>
       <li>DevDesigner_DarkElves_ColdOneKnightHelmet</li>
       <li>DevDesigner_DarkElves_ColdOneKnightCloak</li>
+	  <li>DevDesigner_DarkElves_Shield</li>
     </apparelRequired>
 
     <apparelTags>
@@ -877,10 +875,6 @@
         <factionColourApparelLayerList>
           <li>VFEC_OuterShell</li>
         </factionColourApparelLayerList>
-        <shieldMoney>250~3500</shieldMoney>
-        <shieldTags>
-          <li>DevDesigner_DarkElves_Shield</li>
-        </shieldTags>
       </li>
     </modExtensions>
   </PawnKindDef>

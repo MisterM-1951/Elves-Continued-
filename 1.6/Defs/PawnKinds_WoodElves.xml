@@ -642,6 +642,7 @@
       <li>DevDesigner_WoodElves_Scalemail</li>
       <li>DevDesigner_WoodElves_Tunic</li>
       <li>DevDesigner_WoodElves_Cloak</li>
+	  <li>DevDesigner_WoodElves_Shield</li>
     </apparelRequired>
     <apparelTags>
       <li>DevDesigner_WoodElves_Heavy</li>
@@ -671,10 +672,6 @@
         <factionColourApparelLayerList>
           <li>VFEC_OuterShell</li>
         </factionColourApparelLayerList>
-        <shieldMoney>250~3500</shieldMoney>
-        <shieldTags>
-          <li>DevDesigner_WoodElves_Shield</li>
-        </shieldTags>
       </li>
     </modExtensions>
   </PawnKindDef>

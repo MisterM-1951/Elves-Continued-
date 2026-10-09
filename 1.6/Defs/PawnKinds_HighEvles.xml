@@ -233,6 +233,7 @@
       <li>DevDesigner_Elves_Chainmail</li>
       <li>DevDesigner_HighElves_SpearmanArmor</li>
       <li>DevDesigner_HighElves_SpearmanHelmet</li>
+	  <li>DevDesigner_HighElves_Shield</li>
     </apparelRequired>
 
     <apparelTags>
@@ -262,10 +263,6 @@
         <factionColourApparelLayerList>
           <li>VFEC_OuterShell</li>
         </factionColourApparelLayerList>
-        <shieldMoney>250~3500</shieldMoney>
-        <shieldTags>
-          <li>DevDesigner_HighElves_Shield</li>
-        </shieldTags>
       </li>
     </modExtensions>
   </PawnKindDef>
@@ -846,6 +843,7 @@
       <li>DevDesigner_HighElves_DragonPrinceArmor</li>
       <li>DevDesigner_HighElves_DragonPrinceHelmet</li>
       <li>DevDesigner_HighElves_DragonPrincePauldrons</li>
+	  <li>DevDesigner_HighElves_DragonPrinceShield</li>
     </apparelRequired>
 
     <apparelTags>
@@ -875,10 +873,6 @@
         <factionColourApparelLayerList>
           <li>VFEC_OuterShell</li>
         </factionColourApparelLayerList>
-        <shieldMoney>250~3500</shieldMoney>
-        <shieldTags>
-          <li>DevDesigner_HighElves_DragonPrinceShield</li>
-        </shieldTags>
       </li>
     </modExtensions>
   </PawnKindDef>
